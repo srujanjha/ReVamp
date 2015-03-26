@@ -1,0 +1,50 @@
+ul.nav1 h1{
+	color:#fff;
+	font-family: 'Monoton', cursive;
+	font-size:50px;
+	text-decoration:bold;
+}
+.details{
+	
+	background-color:#f5b303;
+
+}
+.day1 h1{
+		text-align:center;
+		font-family: 'Montez', cursive;
+		font-weight:bold;
+		padding-top:20px;
+		font-size:60px;
+		border-bottom:2px solid;
+		border-bottom-color:#FE642E;
+}
+.day2 h1{
+		text-align:center;
+		font-family: 'Montez', cursive;
+		font-weight:bold;
+		padding-top:20px;
+		font-size:60px;
+		border-bottom:2px solid;
+		border-bottom-color:#FE642E;
+}
+#day1_details{
+		margin-left:20%;
+
+}
+#day2_details{
+		margin-left:20%;
+
+}
+.day3 h1{
+		text-align:center;
+		font-family: 'Montez', cursive;
+		font-weight:bold;
+		padding-top:20px;
+		font-size:60px;
+		border-bottom:2px solid;
+		border-bottom-color:#FE642E;
+}
+#day3_details{
+		margin-left:20%;
+
+}

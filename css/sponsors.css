@@ -1,0 +1,13 @@
+.spons{
+		background-color:#f5b303;
+}
+#spon_details{
+		text-align:center;
+		font-family: 'Montez', cursive;
+		font-weight:bold;
+		padding-top:20px;
+		font-size:60px;
+		border-bottom:2px solid;
+		border-bottom-color:#FE642E;
+
+}
