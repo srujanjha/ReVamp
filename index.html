@@ -32,26 +32,48 @@
 				});
 			});
 	</script>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<!--//end-smoth-scrolling-->
 </head>
 <body>
 	<!--header-->
+<div id="fb-root"></div>
+<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '413037865516033',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 	<div class="header" id="home">
 		<div class="container">
 			<div class="header-logo">
 				<a href="index.html"><img src="images/logo.jpg" alt="logo"/></a>
+				
 			</div>
 			<div class="top-nav">
 				<span class="menu"><img src="images/menu-icon.png" alt=""/></span>
+				
 				<ul class="nav1">
 					<li><a href="index.html" class="active">HOME</a></li>
 					<li><a href="#about" class="scroll">ABOUT</a></li>
 					<li><a href="#services" class="scroll">SERVICES</a></li>
 					
-					<li><a href="contact.html" class="scroll">CONTACT</a></li>
+					<li><a href="#contact" class="scroll">CONTACT</a></li>
 					<li><a href="#register" class="scroll">REGISTER</a></li>
 					
 				</ul>
+				<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Frevamplife%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=500&amp;appId=413037865516033" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true" > </iframe>
 				<!-- script-for-menu -->
 				 <script>
 				   $( "span.menu" ).click(function() {
@@ -233,7 +255,13 @@
 	</div>		
 	<!--//services-->
 	<!--work-->
-
+<div class="services" id="contact">
+		<div class="container">
+			<h3>Contact</h3>
+			<h4></h4>
+			<div class="fb-page" data-href="https://www.facebook.com/revamplife" data-width="800" data-height="130" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+			</div>
+	</div>		
 	<!--//work-->
 	<!--contact-->
 
