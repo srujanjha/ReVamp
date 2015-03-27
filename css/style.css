@@ -19,14 +19,14 @@ body{
 }
 .header-logo{
 	float:left;
-	width: 16%;
+	width: 36%;
 }
 .header-logo a {
   display: block;
 }
 .fb-like{
-    position: absolute;
-	top: 130px;
+    position:relative;
+	top: 30px;
     right: 0px;
     width: 600px;
 }
@@ -1171,11 +1171,11 @@ select#selectThis {
  padding: 1.8em 0 0;
 }
 .header-logo {
-	  width: 22%;
+	  width: 42%;
 	margin-left: 2em;
 }
 .header-logo  img {
-  width: 100%;
+  width: 120%;
 }
 .top-nav {
   width: 4.5%;
@@ -1533,7 +1533,7 @@ select#selectThis {
   padding: 1.5em 0 0;
 }
 .header-logo {
-	width: 28%;
+	width: 48%;
 	margin-left: 1em;
 }
 .top-nav {
@@ -1752,7 +1752,7 @@ select#selectThis {
 }
 @media(max-width:320px){
 .header-logo {
-  width: 36%;
+  width: 56%;
   margin-left: 0em;
 }
 .top-nav ul li a {
