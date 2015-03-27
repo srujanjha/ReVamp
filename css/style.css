@@ -24,6 +24,12 @@ body{
 .header-logo a {
   display: block;
 }
+.fb-like{
+    position: absolute;
+	top: 130px;
+    right: 0px;
+    width: 600px;
+}
 .top-nav{
 	float: right;
 	width: 59%;
